@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include datacenter_dcim_billing *.css
+recursive-include datacenter_dcim_billing *.csv
+recursive-include datacenter_dcim_billing *.html
+recursive-include datacenter_dcim_billing *.ico
+recursive-include datacenter_dcim_billing *.js
+recursive-include datacenter_dcim_billing *.json
+recursive-include datacenter_dcim_billing *.md
+recursive-include datacenter_dcim_billing *.png
+recursive-include datacenter_dcim_billing *.py
+recursive-include datacenter_dcim_billing *.svg
+recursive-include datacenter_dcim_billing *.txt
+recursive-exclude datacenter_dcim_billing *.pyc
